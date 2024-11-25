@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db690191-0670-4997-ba5a-efa89b848fed" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/SelectorsCss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/StartTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/XPathSelectors.java" afterDir="false" />
+    <list default="true" id="db690191-0670-4997-ba5a-efa89b848fed" name="Changes" comment="created XPathSelectors">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/ILCarroXPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +53,31 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.XPathSelectors.methodXPath">
+  <component name="RunManager" selected="Gradle.ILCarroXPath.typeRegForm">
+    <configuration name="ILCarroXPath.typeRegForm" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;tests.ILCarroXPath.typeRegForm&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="SelectorsCss.elementsHeaderIlCarro" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -164,6 +176,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ILCarroXPath.typeRegForm" />
         <item itemvalue="Gradle.XPathSelectors.methodXPath" />
         <item itemvalue="Gradle.SelectorsCss.elementsHeaderIlCarro" />
         <item itemvalue="Gradle.StartTests.firstTest" />
@@ -187,6 +200,19 @@
       <option name="presentableId" value="Default" />
       <updated>1731605689701</updated>
     </task>
+    <task id="LOCAL-00001" summary="created XPathSelectors">
+      <option name="closed" value="true" />
+      <created>1732214343117</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732214343117</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created XPathSelectors" />
+    <option name="LAST_COMMIT_MESSAGE" value="created XPathSelectors" />
   </component>
 </project>
